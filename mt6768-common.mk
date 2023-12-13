@@ -333,3 +333,8 @@ PRODUCT_PACKAGES += \
 # Debloat Packages
 PRODUCT_PACKAGES += \
     Debloater
+
+# Android Q lmkd
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/core/lmkd/bin/lmkd:$(TARGET_COPY_OUT_SYSTEM)/bin/lmkd \
+    $(LOCAL_PATH)/core/lmkd/etc/init/lmkd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/lmkd.rc
