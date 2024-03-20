@@ -329,3 +329,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.mt6768 \
     android.hardware.usb.gadget@1.1-service.mt6768
+
+# Debloat Packages
+PRODUCT_PACKAGES += \
+    Debloater
